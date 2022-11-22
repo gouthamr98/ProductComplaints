@@ -1,0 +1,189 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="ProductComplaints.User.User" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+
+    
+    
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Complaint-Registration::
+	</title>
+	<!-- Template CSS -->
+	<link rel="stylesheet" href="assets/css/style-starter.css">
+	<!-- Template CSS -->
+	<link href="//fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700&display=swap" rel="stylesheet">
+	<!-- Template CSS -->
+<!--header-->
+	</head>
+		<div class="container" style=" background-color: black;">
+			<nav class="navbar navbar-expand-lg navbar-dark stroke">
+				<h1> <a class="navbar-brand" href="Guest.aspx">
+						<span class="fa fa-heart"></span> <span class="sub-logo">Product</span>Complaint
+					</a></h1>
+				<!-- if logo is image enable this   
+        <a class="navbar-brand" href="#index.html">
+            <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+        </a> -->
+				<button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+					data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+					<span class="navbar-toggler-icon fa icon-close fa-times"></span>
+					</span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="UserHome.aspx">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="ComplaintReg.aspx">Complaint Registration</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="ComplaintStatus.aspx">Complaint Status</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="QuerryReg.aspx">Querry Registration</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="ViewReply.aspx">View Reply</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../Guest/Guest.aspx">Log-Out</a>
+						</li>
+						
+						
+
+
+					</ul>
+				</div>
+			</nav>
+		</div>
+	
+	<!--/header-->
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+			<!-- footer-66 -->
+	<footer class="w3l-footer-66">
+		<section class="footer-inner-main">
+			<div class="footer-hny-grids py-5">
+				<div class="container py-lg-4">
+					<div class="text-txt">
+						<div class="right-side">
+							<div class="row sub-columns">
+								<div class="col-lg-4 col-md-6 sub-one-left pr-lg-4">
+									<h2><a class="navbar-brand" href="index.html">
+											<span class="fa fa-heart"></span> <span class="sub-logo">Product</span>Complaint
+										</a></h2>
+									<!-- if logo is image enable this   
+										<a class="navbar-brand" href="#index.html">
+											<img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+										</a> -->
+									<p class="pr-lg-4">Product Quality Complaint is defined as any complaint that questions the purity, identity, potency or quality of the Product, its packaging, or labeling, or any complaint. </p>
+									
+								</div>
+								<div class="col-lg-4 col-md-6 sub-one-left">
+									<h6>Our Services</h6>
+									<div class="mid-footer-gd sub-two-right">
+
+										<ul>
+											<li><a href="#"><span class="fa fa-angle-double-right mr-2"></span>Complaint
+													Registration</a>
+											</li>
+											<li><a href="#"><span class="fa fa-angle-double-right mr-2"></span>Querry
+													Registration</a>
+											</li>
+											<li><a href="#"><span class="fa fa-angle-double-right mr-2"></span>View Reply
+													Admin</a>
+											</li>
+											
+										</ul>
+										
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 sub-one-left">
+									<h6>Happy Faces</h6>
+									<div class="instagram-feeds">
+										<div class="b-img"> <a href="#url"><img src="assets/images/f1.jpg"
+													class="img-fluid" alt=""></a></div>
+										<div class="b-img"> <a href="#url"><img src="assets/images/f2.jpg"
+													class="img-fluid" alt=""></a></div>
+										<div class="b-img"> <a href="#url"><img src="assets/images/f3.jpg"
+													class="img-fluid" alt=""></a></div>
+										<div class="b-img"> <a href="#url"><img src="assets/images/f4.jpg"
+													class="img-fluid" alt=""></a></div>
+										<div class="b-img"> <a href="#url"><img src="assets/images/f5.jpg"
+													class="img-fluid" alt=""></a></div>
+										<div class="b-img"> <a href="#url"><img src="assets/images/f6.jpg"
+													class="img-fluid" alt=""></a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="below-section">
+				<div class="container">
+					<div class="copyright-footer">
+						<div class="columns text-lg-left">
+							<p>© 2022 Product-Complaint. All rights reserved | Designed by <a
+									href="#">Goutham R(Nest Digitals)</a></p>
+						</div>
+						<ul class="columns text-lg-right">
+							<li><a href="#">Privacy Policy</a>
+							</li>
+							<li>|</li>
+							<li><a href="#">Terms Of Use</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- copyright -->
+			<!-- move top -->
+			<button onclick="topFunction()" id="movetop" title="Go to top">
+				<span class="fa fa-long-arrow-up" aria-hidden="true"></span>
+			</button>
+			<script>
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function () {
+                    scrollFunction()
+                };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        document.getElementById("movetop").style.display = "block";
+                    } else {
+                        document.getElementById("movetop").style.display = "none";
+                    }
+                }
+
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
+			<!-- /move top -->
+
+		</section>
+	</footer>
+	<!--//footer-66 -->
+        </div>
+    </form>
+</body>
+</html>

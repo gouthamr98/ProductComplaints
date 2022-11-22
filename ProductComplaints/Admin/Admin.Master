@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="ProductComplaints.Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+
+
+     <style>
+
+        nav{
+    background-color:green;
+    height:50px;
+}
+nav ul{
+    text-align:center;
+   
+}
+    nav li {
+        display: inline-block;
+        margin-top: 1%;
+    }
+
+nav li a{
+    color:white;
+    text-decoration:none; 
+    padding:0px 60px;
+   
+}
+
+nav li a:hover{
+    color:red;
+    transition:all 0.4S ;
+
+}
+
+footer{
+     background-color:green;
+    height:100px;
+    margin-top:250px;
+}
+footer p {
+    color:white;
+    text-align:center;
+  
+}
+
+footer p a {
+    color:white;
+}
+    </style>
+
+     <nav>
+                    <ul>
+                         <li><a href="AdminHome.aspx">Home</a></li>
+                        <li><a href="ProductReg.aspx">Product Register</a></li>
+                         <li><a href="ViewUser.aspx">View User</a></li>
+                        <li><a href="ViewComplaint.aspx">View Complaint</a></li>
+                        <li><a href="ViewQuerry.aspx">View Querry</a></li>
+                        <li><a href="../Guest/Guest.aspx">Log-out</a></li>
+                       
+                    </ul>
+
+            </nav>
+
+
+
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+         <footer >
+                  
+             <p>© 2022 Product-Complaint. All rights reserved | Designed by <a href="#">Goutham R(Nest Digitals)</a></p>
+
+            </footer>
+    </form>
+</body>
+</html>
